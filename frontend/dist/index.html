@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="assets/logononbg.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A Vite application for managing predictions and history." />
+    <meta name="keywords" content="Vite, predictions, history, web application" />
+    <title>Leafscan</title>
+    <!-- <link rel="stylesheet" href="/src/style.css" /> -->
+    <script type="module" crossorigin src="/assets/index-4740764a.js"></script>
+    <link rel="stylesheet" href="/assets/index-18e8562b.css">
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#" class="navbar-logo" aria-label="Logo Aplikasi">
+        <img src="/assets/logo.png" alt="Logo Aplikasi" class="logo" />
+      </a>
+      <div class="navbar-menu">
+        <a href="" aria-label="Go to Beranda">Beranda</a>
+        <a href="#prediksi" aria-label="Go to Prediksi">Prediksi</a>
+        <a href="#riwayat" aria-label="Go to Riwayat">Riwayat</a>
+      </div>
+    </nav>
+    <h1 class="greeting">Haloo! Selamat datang</h1>
+    <section id="beranda" class="beranda-section">
+      <div class="text-container">
+        <h1 class="hero-title gradient-text">Pemetikan Daun Teh dengan Citra</h1>
+        <p class="hero-subtitle">"Membantu Pemetikan Daun Teh secara Efisien"</p>
+        <div class="hero-buttons">
+          <button class="cta-button">Ayo Jelajahi</button>
+          <button class="action-btn">Coba Sekarang</button>
+        </div>
+        <!-- <img src="/assets/down.png" alt="Down Arrow" class="down-arrow" /> -->
+      </div>
+      <img src="/assets/daun-teh.png" alt="Pemetikan Daun Teh" class="tea-leaf-image" />
+       <!--  -->
+    </section>  
+
+    <section class="process-header">
+      <div class="process-header-content">
+        <h2 class="process-title">Tentang Website</h2>
+        <p class="process-description">Website ini dirancang untuk memberikan rekomendasi pemetikan daun teh dengan memanfaatkan data dari citra, menghasilkan hasil analisis yang praktis bagi petani teh.</p>
+        <div class="process-divider"></div>
+      </div>
+    </section>
+
+    <section class="how-it-works-section">
+      <h2 class="section-title">Bagaimana Cara Kerjanya?</h2>
+    </section>
+    <p class="section-subtitle">
+      Karena kita membuat website ini untuk petani, berikut panduan penggunaannya:
+    </p>
+      <div class="steps-container">
+        <div class="step-box">
+          <img src="/assets/1.png" alt="Upload Gambar" />
+          <p class="step-text">Klik "Upload Gambar"</p>
+        </div>
+        <div class="step-box">
+          <img src="/assets/2.png" alt="Pilih Gambar Daun Teh" />
+          <p class="step-text">Pilih Gambar Daun Teh di perangkat Anda</p>
+        </div>
+        <div class="step-box">
+          <img src="/assets/3.png" alt="Mulai Prediksi" />
+          <p class="step-text">Klik Proses Untuk Memulai Prediksi</p>
+        </div>
+        <div class="step-box">
+          <img src="/assets/4.png" alt="Lihat Hasil" />
+          <p class="step-text">Lihat Hasil Prediksi Dilayar</p>
+        </div>
+      </div>
+    </section>
+    <!-- FAQ -->
+
+    <section class="faq-section">
+      <div class="faq-container">
+        <h2 class="faq-title">FAQ – Sistem Prediksi Kematangan Daun Teh</h2>
+        <div class="faq-grid">
+          <details class="faq-item">
+            <summary>
+              <span class="faq-question">Apa fungsi dari website ini?</span>
+              <span class="icon">▼</span>
+            </summary>
+            <div class="content">
+              <p>Website ini berfungsi sebagai alat bantu digital bagi petani atau pelaku industri teh untuk memprediksi tingkat kematangan daun teh berdasarkan citra digital (gambar).</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span class="faq-question">Bagaimana cara mengunggah gambar daun teh?</span>
+              <span class="icon">▼</span>
+            </summary>
+            <div class="content">
+              <p>Klik tombol "Upload Gambar", pilih gambar daun teh dari perangkat Anda, lalu klik "Proses" untuk memulai prediksi.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span class="faq-question">Bagaimana cara kerja sistem ini?</span>
+              <span class="icon">▼</span>
+            </summary>
+            <div class="content">
+              <p>Sistem akan menganalisis gambar daun teh yang diunggah menggunakan algoritma KNN untuk menentukan tingkat kematangan daun teh.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span class="faq-question">Apakah metode KNN akurat untuk prediksi ini?</span>
+              <span class="icon">▼</span>
+            </summary>
+            <div class="content">
+              <p>Metode KNN cukup akurat untuk klasifikasi citra daun teh, terutama dengan dataset yang cukup dan fitur yang tepat.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span class="faq-question">Apa saja kategori kematangan daun teh yang diprediksi?</span>
+              <span class="icon">▼</span>
+            </summary>
+            <div class="content">
+              <p>Sistem memprediksi tiga kategori: muda, siap petik, dan tua.</p>
+            </div>
+          </details>
+          <details class="faq-item">
+            <summary>
+              <span class="faq-question">Apakah website ini bisa digunakan di perangkat mobile?</span>
+              <span class="icon">▼</span>
+            </summary>
+            <div class="content">
+              <p>Ya, website ini responsive dan dapat digunakan di berbagai perangkat termasuk smartphone dan tablet.</p>
+            </div>
+          </details>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+
+    <footer class="footer">
+      <div class="footer-top">
+        <div class="footer-logo">
+          <img src="/assets/logo.png" alt="LeafScan Logo" />
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="youtube.com"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-nav">
+          <a href="#">Beranda</a>
+          <a href="#">Prediksi</a>
+          <a href="#">Riwayat</a>
+        </div>
+        
+        <div class="footer-logout">
+          <a href="#" class="logout-btn"><i class="fas fa-sign-out-alt"></i>Back</a>
+        </div>
+      </div>
+    
+      <div class="footer-bottom">
+        <p>© 2025 KURNIA ADILLA</p>
+      </div>
+    </footer>
+    
+    <div id="app"></div>
+    
+  </body>
+</html>
